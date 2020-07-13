@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend for my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briworkman/portfolio-backend.git"
+  },
+  "author": "Brianna Workman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briworkman/portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/briworkman/portfolio-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.2",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
